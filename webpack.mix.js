@@ -13,7 +13,3 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/assets/js')
     .sass('resources/sass/app.scss', 'public/assets/css');
-    // .sass('resources/sass/tabler-flags.scss', 'public/css')
-    // .sass('resources/sass/tabler-payments.scss', 'public/css')
-    // .sass('resources/sass/tabler-vendors.scss', 'public/css')
-    // .sass('resources/sass/demo.scss', 'public/css');
